@@ -1011,8 +1011,6 @@ var _reactDom = require("react-dom");
 var _reactDomDefault = parcelHelpers.interopDefault(_reactDom);
 var _mainView = require("./components/main-view/main-view");
 var _mainViewDefault = parcelHelpers.interopDefault(_mainView);
-var _movieView = require("./components/movie-view/movie-view");
-var _movieViewDefault = parcelHelpers.interopDefault(_movieView);
 // Import statement to indicate that you need to bundle './index.scss';
 var _indexScss = require("./index.scss");
 // Main componet (will eventually use all the others)
@@ -1021,7 +1019,7 @@ class MyFlixApplication extends _reactDefault.default.Component {
         return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_mainViewDefault.default, {
         }, void 0, false, {
             fileName: "src/index.jsx",
-            lineNumber: 13,
+            lineNumber: 12,
             columnNumber: 13
         }, this));
     }
@@ -1036,7 +1034,7 @@ _reactDomDefault.default.render(/*#__PURE__*/ _reactDefault.default.createElemen
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom":"j6uA9","./components/main-view/main-view":"4gflv","./components/movie-view/movie-view":"ggaUx","./index.scss":"lJZlQ","@parcel/transformer-js/src/esmodule-helpers.js":"8YcM2","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"3iwEf"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom":"j6uA9","./components/main-view/main-view":"4gflv","./index.scss":"lJZlQ","@parcel/transformer-js/src/esmodule-helpers.js":"8YcM2","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"3iwEf"}],"iTorj":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/react-jsx-dev-runtime.development.js');
 
@@ -22791,8 +22789,6 @@ $parcel$ReactRefreshHelpers$f7a6.prelude(module);
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "MainView", ()=>MainView
-);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
@@ -22869,6 +22865,7 @@ class MainView extends _reactDefault.default.Component {
         }, this));
     }
 }
+exports.default = MainView;
 
   $parcel$ReactRefreshHelpers$f7a6.postlude(module);
 } finally {
@@ -22884,8 +22881,6 @@ $parcel$ReactRefreshHelpers$67b2.prelude(module);
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "MovieCard", ()=>MovieCard
-);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
@@ -22901,6 +22896,7 @@ class MovieCard extends _reactDefault.default.Component {
         }, this));
     }
 }
+exports.default = MovieCard;
 
   $parcel$ReactRefreshHelpers$67b2.postlude(module);
 } finally {
@@ -23066,8 +23062,6 @@ $parcel$ReactRefreshHelpers$e9f6.prelude(module);
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "MovieView", ()=>MovieView
-);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
@@ -23157,6 +23151,7 @@ class MovieView extends _reactDefault.default.Component {
         }, this));
     }
 }
+exports.default = MovieView;
 
   $parcel$ReactRefreshHelpers$e9f6.postlude(module);
 } finally {
