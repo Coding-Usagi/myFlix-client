@@ -1011,7 +1011,9 @@ var _reactDom = require("react-dom");
 var _reactDomDefault = parcelHelpers.interopDefault(_reactDom);
 var _mainView = require("./components/main-view/main-view");
 var _mainViewDefault = parcelHelpers.interopDefault(_mainView);
-// Import statement to indicare that you need to bundle './index.scss';
+var _movieView = require("./components/movie-view/movie-view");
+var _movieViewDefault = parcelHelpers.interopDefault(_movieView);
+// Import statement to indicate that you need to bundle './index.scss';
 var _indexScss = require("./index.scss");
 // Main componet (will eventually use all the others)
 class MyFlixApplication extends _reactDefault.default.Component {
@@ -1019,7 +1021,7 @@ class MyFlixApplication extends _reactDefault.default.Component {
         return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_mainViewDefault.default, {
         }, void 0, false, {
             fileName: "src/index.jsx",
-            lineNumber: 12,
+            lineNumber: 13,
             columnNumber: 13
         }, this));
     }
@@ -1034,7 +1036,7 @@ _reactDomDefault.default.render(/*#__PURE__*/ _reactDefault.default.createElemen
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom":"j6uA9","./components/main-view/main-view":"4gflv","./index.scss":"lJZlQ","@parcel/transformer-js/src/esmodule-helpers.js":"8YcM2","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"3iwEf"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom":"j6uA9","./components/main-view/main-view":"4gflv","./components/movie-view/movie-view":"ggaUx","./index.scss":"lJZlQ","@parcel/transformer-js/src/esmodule-helpers.js":"8YcM2","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"3iwEf"}],"iTorj":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/react-jsx-dev-runtime.development.js');
 
@@ -22796,7 +22798,7 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _movieCard = require("../movie-card/movie-card");
 var _movieView = require("../movie-view/movie-view");
-class MainView extends _reactDefault.default.Componet {
+class MainView extends _reactDefault.default.Component {
     constructor(){
         super();
         this.state = {
